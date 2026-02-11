@@ -22,3 +22,48 @@ print(float(10%3))
 print(float(25%4))
 print(float(16%2))
 print(float(10 / 3))
+
+# Variables
+print("==========Variables========")
+x = 100
+y = 1
+print(x + y)
+
+ventas = 199991
+print("Nuestras ventas fueron:", ventas)
+
+is_active = True
+print(is_active)
+
+game_over = False
+print(game_over)
+
+some_string = "Hola soy string"
+print(some_string)
+
+# Condicionales
+print("==========Condicionales===========")
+edad = 15
+
+if(edad>=18):
+    print("Si puedes entrar a el Bar!!!")
+else:
+    print("No puedes entrar al Bar!!!")
+
+mi_numero = int(input("¿Cual es el numero que deseas verificar?:"))
+print(f"El numero que desea verificar es {mi_numero}")
+if mi_numero % 2 == 0:
+    print(f"El numero {mi_numero} es Par!")
+else:
+     print(f"El numero {mi_numero} es Impar!")
+
+
+def par_impar(numero):
+    if numero % 2 == 0:
+        print(f"El numero {numero} es par!")
+    else:
+        print(f"El numero es {numero} es impar!!!")
+print("=============FUNCION PAR_IMPAR()==============")
+mi_numero = int(input("¿Cual es el numero que deseas verificar?:"))
+print(f"El numero que desea verificar es {mi_numero}")
+print(par_impar(mi_numero))
